@@ -12,13 +12,13 @@
 
 **3. Algoritmo do Gradiente Descendente:**
    - **Passos do Algoritmo:**
-     1. **Inicialização:** Começar com valores iniciais para os parâmetros (\(\theta\)).
+     1. **Inicialização:** Começar com valores iniciais para os parâmetros $\theta$.
      2. **Cálculo do Gradiente:** Calcular o gradiente da função de custo em relação aos parâmetros.
      3. **Atualização dos Parâmetros:** Atualizar os parâmetros na direção oposta ao gradiente:
         \[
-        \theta := \theta - \alpha \nabla J(\theta)
+        $\theta$ := $\theta$ - $\alpha$ $\nabla$ J($\theta$)
         \]
-        onde \(\alpha\) é a taxa de aprendizado e \(\nabla J(\theta)\) é o gradiente da função de custo.
+        onde \($\alpha$) é a taxa de aprendizado e \($\nabla$ J($\theta$)\) é o gradiente da função de custo.
      4. **Iteração:** Repetir os passos 2 e 3 até a convergência.
 
 **4. Tipos de Gradiente Descendente:**
@@ -34,7 +34,7 @@
      - Calcula o gradiente usando pequenos lotes de amostras.
      - Combina as vantagens de BGD e SGD.
 
-**5. Taxa de Aprendizado (\(\alpha\)):**
+**5. Taxa de Aprendizado \($\alpha$\):**
    - **Definição:** Controla o tamanho dos passos dados na direção do gradiente.
    - **Escolha da Taxa de Aprendizado:**
      - Taxa de aprendizado muito alta pode fazer o algoritmo divergir.
@@ -53,12 +53,12 @@
 **7. Melhorias e Variações do Gradiente Descendente:**
    - **Momentum:** Acelera o gradiente descendente em direções relevantes e suaviza as oscilações.
      \[
-     v_t = \gamma v_{t-1} + \alpha \nabla J(\theta)
+     $v_t$ = $\gamma$ $v_{t-1}$ + $\alpha$ $\nabla$ $J(\theta)$
      \]
      \[
-     \theta := \theta - v_t
+     $\theta$ := $\theta$ - $v_t$
      \]
-     onde \(\gamma\) é o fator de momentum.
+     onde \($\gamma$\) é o fator de momentum.
    - **Adagrad:** Ajusta a taxa de aprendizado para cada parâmetro com base na magnitude dos gradientes passados.
    - **RMSprop:** Modifica o Adagrad para reduzir a diminuição da taxa de aprendizado.
    - **Adam:** Combina as ideias do momentum e RMSprop, ajustando a taxa de aprendizado com base nos momentos de primeira e segunda ordem dos gradientes.
@@ -127,6 +127,11 @@
    ```
 
 #### Exercícios
+
+
+
+
+
 
 **1. Implementação Básica:**
    - Implemente o algoritmo de gradiente descendente para uma função de custo quadrática simples.
