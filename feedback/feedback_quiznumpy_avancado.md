@@ -1,5 +1,5 @@
 
-```markdown
+
 # Relatório de Feedback sobre Questões Avançadas de NumPy
 
 ## Questão 1
@@ -292,5 +292,5 @@ x = np.array([1, 2, 3, 4, 5])
 indices = np.where(x > 3)
 print("Índices dos elementos maiores que 3:", indices)
 ```
-```
+
 
