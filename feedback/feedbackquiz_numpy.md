@@ -1,4 +1,3 @@
-Claro! Aqui está o relatório no formato Markdown com feedback sobre cada resposta e um exemplo de uso para as primeiras 20 questões mais simples sobre NumPy:
 
 ```markdown
 # Relatório de Feedback sobre Questões Básicas de NumPy
